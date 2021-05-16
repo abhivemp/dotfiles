@@ -1,0 +1,8 @@
+
+
+# Update aliases for bash
+source $HOME/.dotfiles/bash/aliases
+
+# Update git aliases
+
+# Update python aliases
