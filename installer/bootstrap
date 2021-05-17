@@ -8,16 +8,27 @@ if __name__=="__main__":
 
     cmd_length = len(sys.argv)
 
+    def run_linker():
+        os.system("./linker")
+        print("Symlink file successfully ran!")
+
+    def run_bash():
+        os.system("./bashrc_update")
+        print("Source bashrc success!")
+
+    # Show a cool meny
     if(len(sys.argv) == 1):
         os.system("cat menu.txt")
 
     elif(len(sys.argv) == 2):
-    # Update symlinks
+        # Update symlinks
         if(sys.argv[1] == "link"):
-            os.system("./linker")
-            print("Symlink file successfully ran!")
-    # Source bashrc
+            run_linker()
+        # Source bashrc
         if(sys.argv[1] == "bash"):
-            os.system("./bashrc_update")
-            print("Source bashrc success!")
-    # Update symlinks & source bashrc
+            run_bash()
+
+        # Update symlinks & source bashrc
+        if(sys.argv[1] == 'update'):
+            run_linker()
+            run_bash()
