@@ -1,0 +1,23 @@
+#!/usr/bin/env python
+
+# bootstrap cli tool that allows you to control scripts for your dotfiles
+
+import os, sys
+
+if __name__=="__main__":
+
+    cmd_length = len(sys.argv)
+
+    if(len(sys.argv) == 1):
+        os.system("cat menu.txt")
+
+    elif(len(sys.argv) == 2):
+    # Update symlinks
+        if(sys.argv[1] == "link"):
+            os.system("./linker")
+            print("Symlink file successfully ran!")
+    # Source bashrc
+        if(sys.argv[1] == "bash"):
+            os.system("./bashrc_update")
+            print("Source bashrc success!")
+    # Update symlinks & source bashrc

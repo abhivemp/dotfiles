@@ -1,0 +1,12 @@
+
+
+Usage:
+  bootstrap <command> [options]
+
+Commands:
+  linker                     Creates/Updates symlinks to all files in the linker script
+  bashrc                     sources bashrc file
+  Update                     updates symlinks and sources bashrc
+
+General Options:
+  -h, --help                 Show help.

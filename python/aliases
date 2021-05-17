@@ -1,0 +1,6 @@
+# Aliases for Python and packages
+
+# Virtualenv
+
+# Django
+alias rs="python manage.py runserver"
