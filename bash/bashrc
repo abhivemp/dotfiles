@@ -4,5 +4,5 @@
 source $HOME/.dotfiles/bash/aliases
 
 # Update git aliases
-
+source $HOME/.dotfiles/git/aliases
 # Update python aliases

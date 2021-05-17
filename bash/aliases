@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 
+
 # Window Controls
 alias v="code ."
 alias a="atom ."
