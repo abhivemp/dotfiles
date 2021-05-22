@@ -5,6 +5,7 @@
 # Window Controls
 alias v="code ."
 alias a="atom ."
-#!/bin/sh
+
 
 alias ..="cd ../.."
+alias dot="cd ~/.dotfiles/"

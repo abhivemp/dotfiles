@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# bootstrap cli tool that allows you to control scripts for your dotfiles
+# bootstrap is a cli tool that allows you to control scripts for your dotfiles
 
 import os, sys
 
@@ -8,15 +8,17 @@ if __name__=="__main__":
 
     cmd_length = len(sys.argv)
 
+    # Functions runs the symlink script
     def run_linker():
-        os.system("./linker")
+        os.system("sh linker.sh")
         print("Symlink file successfully ran!")
 
+    # updates the bashrc
     def run_bash():
-        os.system("./bashrc_update")
+        os.system("sh bashrc_update.sh")
         print("Source bashrc success!")
 
-    # Show a cool meny
+    # Show a cool menu
     if(len(sys.argv) == 1):
         os.system("cat menu.txt")
 

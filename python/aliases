@@ -1,6 +1,9 @@
 # Aliases for Python and packages
 
 # Virtualenv
+alias vact="./env/Scripts/activate"
 
 # Django
 alias rs="python manage.py runserver"
+alias pmm="python manage.py makemigrations"
+alias pm="python manage.py migrate"

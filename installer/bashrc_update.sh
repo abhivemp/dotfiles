@@ -1,3 +1,5 @@
-#!/usr/bin/env bash
+
 
 source $HOME/.dotfiles/bash/bashrc
+
+source ~/.bashrc
