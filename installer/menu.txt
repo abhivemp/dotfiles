@@ -6,7 +6,7 @@ Usage:
 Commands:
   linker                     Creates/Updates symlinks to all files in the linker script
   bashrc                     sources bashrc file
-  Update                     updates symlinks and sources bashrc
-
+  update                     updates symlinks and sources bashrc
+  show                       Show all alias commands
 General Options:
   -h, --help                 Show help.

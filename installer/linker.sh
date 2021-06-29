@@ -4,4 +4,4 @@
 ln -sf $HOME/.dotfiles/bash/bashrc ~/.bashrc
 
 # Update/create the symlink for gitconfig
-ln -df $HOME/.dotfiles/git/gitconfig ~/.gitconfig
+ln -sf $HOME/.dotfiles/git/gitconfig ~/.gitconfig

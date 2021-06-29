@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+
 # bootstrap is a cli tool that allows you to control scripts for your dotfiles
 
 import os, sys
