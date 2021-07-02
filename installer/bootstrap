@@ -9,6 +9,8 @@ if __name__=="__main__":
 
     cmd_length = len(sys.argv)
 
+    repo_path = os.path.abspath(os.path.dirname(__file__))
+
     # Functions runs the symlink script
     def run_linker():
         os.system("sh linker.sh")
@@ -19,11 +21,7 @@ if __name__=="__main__":
         os.system("sh bashrc_update.sh")
         print("Source bashrc success!")
 
-    # Show a cool menu
-    if(len(sys.argv) == 1):
-        os.system("cat menu.txt")
-
-    elif(len(sys.argv) == 2):
+    if(cmd_length == 2):
         # Update symlinks
         if(sys.argv[1] == "link"):
             run_linker()
@@ -33,5 +31,15 @@ if __name__=="__main__":
 
         # Update symlinks & source bashrc
         if(sys.argv[1] == 'update'):
-            run_linker()
             run_bash()
+            run_linker()
+
+    # Show a cool menu
+    elif((cmd_length == 1) or (cmd_length == 2 and sys.argv[1] == "-h") or (cmd_length == 2 and sys.argv[1] == "--help")):
+        menu_file = os.path.normpath(os.path.join(repo_path, "menu.txt"))
+        os.system("cat {}".format(menu_file))
+    
+    # If these are not commands that are programmed
+    else:
+        print("bootstrap: command not found")
+

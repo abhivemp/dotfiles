@@ -4,8 +4,7 @@ Usage:
   bootstrap <command> [options]
 
 Commands:
-  linker                     Creates/Updates symlinks to all files in the linker script
-  bashrc                     sources bashrc file
+  link                       Creates/Updates symlinks to all files in the linker script
   update                     updates symlinks and sources bashrc
   show                       Show all alias commands
 General Options:
