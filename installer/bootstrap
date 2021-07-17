@@ -41,5 +41,5 @@ if __name__=="__main__":
     
     # If these are not commands that are programmed
     else:
-        print("bootstrap: command not found")
+        print("bootstrap: command not found beaches")
 

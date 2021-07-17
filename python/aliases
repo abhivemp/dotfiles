@@ -3,6 +3,10 @@
 # Virtualenv
 alias vact="./env/Scripts/activate"
 
+#pipenv
+alias ps="pipenv shell"
+alias pi="pipenv install"
+
 # Django
 alias rs="python manage.py runserver"
 alias pmm="python manage.py makemigrations"

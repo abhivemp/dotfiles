@@ -8,3 +8,8 @@ source $HOME/.dotfiles/git/aliases
 
 # Update python aliases
 source $HOME/.dotfiles/python/aliases
+
+# Add bootstrap cli to bashrc so dev can run the commands anywhere. 
+# This is a bit of a dangerous move 
+
+export PATH=~/.dotfiles/installer/bootstrap:$PATH
