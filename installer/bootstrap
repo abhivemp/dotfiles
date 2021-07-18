@@ -10,7 +10,7 @@ if __name__=="__main__":
     cmd_length = len(sys.argv)
 
     repo_path = os.path.abspath(os.path.dirname(__file__))
-
+    
     # Functions runs the symlink script
     def run_linker():
         os.system("sh linker.sh")
