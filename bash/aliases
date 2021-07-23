@@ -12,7 +12,7 @@ alias ..="cd ../.."
 # frequent projects
 
 alias dot="cd ~/.dotfiles/"
-alias aslan="cd $HOME/Desktop/Workshop/aslan/aslan-backend"
+alias aslan="cd $HOME/Desktop/Workshop/aslan/"
 
 # Some important directories
 
