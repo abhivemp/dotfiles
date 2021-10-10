@@ -5,7 +5,7 @@ Usage:
 
 Commands:
   link                       Creates/Updates symlinks to all files in the linker script
-  update                     updates symlinks and sources bashrc
+  update                     Updates symlinks and sources bashrc
   show                       Show all alias commands
 General Options:
-  -h, --help                 Show help.
+

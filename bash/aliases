@@ -10,11 +10,10 @@ alias a="atom ."
 alias ..="cd ../.."
 
 # frequent projects
-
 alias dot="cd ~/.dotfiles/"
 alias aslan="cd $HOME/Desktop/Workshop/aslan/"
+alias pgl="cd $HOME/Desktop/TCNJ/Academics/4_Senior/CSC435"
 
 # Some important directories
-
 alias work="cd $HOME/Desktop/Workshop"
 

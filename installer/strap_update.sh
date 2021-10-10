@@ -1,1 +1,1 @@
-ln -s $HOME/.dotfiles/installer/strap
+ln -s $HOME/.dotfiles/installer/bootstrap

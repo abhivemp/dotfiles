@@ -1,5 +1,9 @@
+#!/bin/bash
+
 # Aliases for git commands
 
 alias ga="git add ."
 # TODO: Add a function for git committing
 alias gp="git push"
+alias gpl="git pull"
+
