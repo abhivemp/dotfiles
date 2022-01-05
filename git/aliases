@@ -2,8 +2,9 @@
 
 # Aliases for git commands
 
-alias ga="git add ."
-# TODO: Add a function for git committing
-alias gp="git push"
-alias gpl="git pull"
+alias ga='git add .'
+alias gcm='git commit -m'
+alias gp='git push'
+alias gpl='git pull'
 
+alias glogp='git log --pretty=format:"%h %s" --graph'
