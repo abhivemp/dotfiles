@@ -2,6 +2,7 @@
 
 # Aliases for git commands
 
+alias gc='git clone'
 alias ga='git add .'
 alias gcm='git commit -m'
 alias gp='git push'
