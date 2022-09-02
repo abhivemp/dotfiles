@@ -15,5 +15,5 @@ alias halo="cd $HOME/Desktop/Workshop/halo/"
 
 
 # Some important directories
-alias work="cd $HOME/Desktop/Workshop"
+alias work="cd $HOME/OneDrive/Desktop/Workshop"
 
