@@ -2,7 +2,7 @@
 # Aliases for Python and packages
 
 # Virtualenv
-alias vact='./env/Scripts/activate'
+alias vact='source ./venv/Scripts/activate'
 
 #pipenv
 alias ps='pipenv shell'
@@ -12,5 +12,5 @@ alias pi='pipenv install'
 alias rs='python manage.py runserver'
 alias pmm='python manage.py makemigrations'
 alias pm='python manage.py migrate'
-alias pms='winpty python manage.py shell'
-alias pmcsu='winpty python manage.py createsuperuser'
+alias pms='python manage.py shell'
+alias pmcsu='python manage.py createsuperuser'

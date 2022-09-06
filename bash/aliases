@@ -4,14 +4,14 @@
 
 # Window Controls
 alias v="code ."
-alias a="atom ."
+
 
 
 alias ..="cd ../.."
 
 # frequent projects
 alias dot="cd ~/.dotfiles/"
-alias halo="cd $HOME/Desktop/Workshop/halo/"
+alias uni="cd $HOME/OneDrive/Desktop/Workshop/unicorn/"
 
 
 # Some important directories
