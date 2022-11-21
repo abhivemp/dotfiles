@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+alias tin="terraform init"
+alias tp="terraform plan"
+alias tap="terraform apply"
+alias td="terraform destroy"

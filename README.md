@@ -28,6 +28,8 @@ Issues and PRs are welcome 😁
 
 4. Please check the various commands by running `installer/bootstrap` 
 
+5. When you clone the repo, github will clone this folder as "dotfiles" instead of ".dotfiles" -- be sure to make that change to avoid running into any errors.
+
 # Install and Configure
 
 1. I keep the dotfiles in my C: Drive. After forking, clone the repo to your location. 
