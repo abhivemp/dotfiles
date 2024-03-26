@@ -13,7 +13,7 @@ alias ..="cd ../.."
 alias dot="cd ~/.dotfiles/"
 alias uni="cd $HOME/OneDrive/Desktop/Workshop/unicorn/"
 alias qufro="cd $HOME/OneDrive/Desktop/Workshop/qufro/qufro_dev"
-
+alias lumina="cd $HOME/OneDrive/Desktop/Workshop/luminadata"
 
 # Some important directories
 alias work="cd $HOME/OneDrive/Desktop/Workshop"
