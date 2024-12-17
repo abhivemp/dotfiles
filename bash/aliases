@@ -11,10 +11,10 @@ alias ..="cd ../.."
 
 # frequent projects
 alias dot="cd ~/.dotfiles/"
-alias uni="cd $HOME/OneDrive/Desktop/Workshop/unicorn/"
-alias qufro="cd $HOME/OneDrive/Desktop/Workshop/qufro/qufro_dev"
-alias lumina="cd $HOME/OneDrive/Desktop/Workshop/luminadata"
+alias uni="cd $HOME/Workshop/unicorn/"
+alias qufro="cd $HOME/Workshop/qufro/qufro_dev"
+alias lumina="cd $HOME/Workshop/luminadata"
 
 # Some important directories
-alias work="cd $HOME/OneDrive/Desktop/Workshop"
+alias work="cd $HOME/Workshop"
 
